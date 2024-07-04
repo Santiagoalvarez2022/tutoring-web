@@ -1,0 +1,16 @@
+.btn_whatsapp_container{
+    display: flex;
+    justify-content: end;
+        cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+            right: 20px;
+            z-index: 1000; 
+}
+.whatsapp_button{
+    height: 4em;
+    width: 4em;
+    background-image: url("../assets/whatsapp.svg");
+    background-position: center;
+    background-size: cover;
+} 

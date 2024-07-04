@@ -1,0 +1,128 @@
+/* Importar estilos específicos */
+@import url('./header.css'); 
+@import url('./whatsapp.css'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('footer.css'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    color: aliceblue;
+    background-color:#5E17EB;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 5vh;
+}
+
+
+
+.container_img{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.2em;
+}
+
+.img_brain{
+    height: 10em;
+    width:  10em;
+    background-image: url("../assets/brain.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.text{
+    text-indent: 15px;
+}
+
+.text,.title_subjects{
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-inline: 1em;
+    text-align: start;
+}
+
+.title_subjects{
+    margin-top: 4vh;
+}
+
+
+.subjects_containers{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 2em;
+}
+
+.subject{
+    background: #FFDE59;
+    display: flex;
+    gap: 1em;
+    padding: .5em;
+    align-items: center;
+    border-radius: 1.5em;
+}
+.img_subject{
+    height: 3em;
+    width:  3em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subject:nth-child(1) > .img_subject{
+    background-image: url("../assets/calculator.svg");
+
+}
+
+.subject:nth-child(2) > .img_subject{
+    background-image: url("../assets/English.svg");
+
+}
+.subject:nth-child(3) > .img_subject {
+    background-image: url("../assets/chemistry.svg");
+
+}
+
+.t_subject{
+    color: #5E17EB;
+    font-size: 1.5em;
+    font-weight: 800;
+
+}
+
+
+.clouds{
+    background-image: url("../assets/clouds.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    padding-top: 10vh;
+    color: #000;
+}
+
+.about_me{
+    background: #ffffff;
+    color: #000;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.t_title_aboutMe{
+    font-weight: 800;
+    text-align: center;
+}
+
+.t_aboutMe{
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-inline: 2em;
+    text-indent: 15px;
+
+}
